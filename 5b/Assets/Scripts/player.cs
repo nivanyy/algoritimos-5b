@@ -83,7 +83,7 @@ public class Player : MonoBehaviour
             Debug.Log("Jump");
         }
 
-        _animator.SetBool("Andando",andando);
+        _animator.SetBool("estaparado",!andando);
         
      
     }
